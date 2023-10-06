@@ -1,0 +1,39 @@
+1. pip install virtualenv -
+              It will install virtual environment globally in your pc
+
+2. virtualenv venv-
+              This command will create a virtual environment(isolated area). If you install anything in this virtual environment it will not be installed globally.
+
+              'venv' is the name of virtual environment, you can give anyname to it as you wish.
+
+3. venv\Scripts\activate - 
+              This command will activate the virtual environment named venv
+
+              (venv) C:\Users\prave\Desktop\django_portfolio\CWD__CRUD>pip list
+
+4. pip install django -
+              This command will install django in your virtual env (venv)
+
+5. pip list -
+              This command will list all the installed applications with its versions.
+
+              Package    Version
+              ---------- -------
+              asgiref    3.7.2
+              Django     4.2.6
+              pip        23.2.1
+              setuptools 68.1.2
+              sqlparse   0.4.4
+              tzdata     2023.3
+              wheel      0.41.2
+
+6. django-admin startproject (projectname) -
+              This command will craete a django project with named (projectname) in the current working directory.
+
+              This folder consists of,
+              - __init__.py
+              - asgi.py    
+              - settings.py
+              - urls.py
+              - wsgi.py
+                
